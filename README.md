@@ -3,10 +3,10 @@
 ```
 social_media_django
 |
-|—————————accounts
-|			|
-|			|———— migrations
-|			|
+|———accounts
+|	|
+|	|———— migrations
+|	|
 |			|———— templates
 |			|			|——accounts
 |			|					|———login.html
