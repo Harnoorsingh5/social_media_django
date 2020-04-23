@@ -7,10 +7,10 @@ social_media_django
 |	|
 |	|———— migrations
 |	|
-|	|———— templates
-|	|	    |——accounts
-|	|			|———login.html
-|	|			|———signup.html
+|	|——templates
+|	|	 |——accounts
+|	|	    |———login.html
+|	|		|———signup.html
 |	|———— __init__.py
 |	|———— admin.py
 |	|———— apps.py
