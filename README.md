@@ -623,7 +623,10 @@ urlpatterns = [
 ## STEP 3
 * After working on groups application, we will a create a new application posts and register it in settings.py
 * we will be working on posts application
-
+projects urls.py
+```
+path('posts/', include('posts.urls', namespace='posts')),
+```
 * We will start by creating model for Posts
 - It consists of 1 table named "Posts" with 5 fields - user, created_at, message, message_html and group
 - where user and group is foreign key
